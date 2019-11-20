@@ -3,6 +3,8 @@ A project to collect mainstream TF models with emphasis on tflite models which c
 
 ## Models in this repo
 
+# To download models, see the tools folder
+
 | Model |Description |Publications|Variants|
 |--|--|--|--|
 | [mobilenet-v1](./mobilenet-v1) | ? | ? | [1.0_224_quant2](./mobilenet-v1/mobilenet_v1_1.0_224_quant.tflite), [224](./mobilenet-v1) |
@@ -15,4 +17,3 @@ A project to collect mainstream TF models with emphasis on tflite models which c
 | [smartreply](https://www.tensorflow.org/lite/guide/hosted_models) | Smart Reply | ? | [1.0](https://storage.googleapis.com/download.tensorflow.org/models/smartreply_1.0_2017_11_01.zip) |
 | [mobilebert](https://www.tensorflow.org/lite/guide/hosted_models) | Question and Answer | ? | [qa](https://storage.googleapis.com/download.tensorflow.org/models/tflite/bert_qa/mobilebert_qa_vocab.zip) |
 | [text classification](https://www.tensorflow.org/lite/guide/hosted_models) | Text classification | ? | [text_classification](https://storage.googleapis.com/download.tensorflow.org/models/tflite/text_classification/text_classification.tflite) |
-
