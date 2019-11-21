@@ -1,3 +1,5 @@
+#!/bin/bash
+
 mkdir mobilenet-v2
 cd mobilenet-v2
 wget https://storage.googleapis.com/download.tensorflow.org/models/tflite_11_05_08/mobilenet_v2_1.0_224_quant.tgz
@@ -6,12 +8,12 @@ mkdir inception-v4
 cd inception-v4
 wget https://storage.googleapis.com/download.tensorflow.org/models/inception_v4_299_quant_20181026.tgz
 cd
-mkdir Mnas
-cd Mnas
+mkdir mnas
+cd mnas
 wget https://storage.cloud.google.com/download.tensorflow.org/models/tflite/mnasnet_1.3_224_09_07_2018.tgz
 cd
-mkdir Coco-ssd
-cd Coco-ssd
+mkdir coco-ssd
+cd coco-ssd
 wget https://storage.googleapis.com/download.tensorflow.org/models/tflite/coco_ssd_mobilenet_v1_1.0_quant_2018_06_29.zip
 cd
 mkdir multi-person-mobilenet-v1
