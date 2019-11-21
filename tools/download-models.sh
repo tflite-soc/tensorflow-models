@@ -10,10 +10,10 @@ pushd inception-v4
 wget https://storage.googleapis.com/download.tensorflow.org/models/inception_v4_299_quant_20181026.tgz
 popd
 
-mkdir mnas
-pushd mnas
-wget https://storage.cloud.google.com/download.tensorflow.org/models/tflite/mnasnet_1.3_224_09_07_2018.tgz
-popd
+#mkdir mnas
+#pushd mnas
+#wget https://storage.cloud.google.com/download.tensorflow.org/models/tflite/mnasnet_1.3_224_09_07_2018.tgz
+#popd
 
 mkdir coco-ssd
 pushd coco-ssd
